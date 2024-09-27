@@ -1,0 +1,62 @@
+/* Overall page styling with background image */
+.exercise-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 80vh;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp1wNNENIzICi_oj7gQdMebQvpzt3EWlIj2A&s'); /* Replace with your image URL */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff; /* Set text color to white for better contrast */
+}
+
+/* Motivational Quote Styling */
+.exercise-quote {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 0 15px;
+  color: #000; /* Ensure the quote is visible on the background */
+}
+
+/* Explore Workouts Button Styling */
+.explore-button {
+  background-color: rgba(255, 107, 107, 0.9); /* Semi-transparent button */
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: rgba(255, 59, 59, 0.9); /* Darker on hover */
+  cursor: pointer;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .exercise-content {
+    padding: 15px;
+  }
+
+  .exercise-quote {
+    font-size: 1.5rem;
+  }
+
+  .explore-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}

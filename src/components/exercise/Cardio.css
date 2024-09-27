@@ -1,0 +1,32 @@
+.cardio-container {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .cardio-title {
+    color: #ff6347;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .cardio-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cardio-exercise-list {
+    list-style-type: square;
+    font-size: 1.1rem;
+    margin-left: 20px;
+  }
+  
+  .cardio-tip {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 1rem;
+    color: #555;
+  }
+  
