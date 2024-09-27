@@ -20,11 +20,6 @@ app.get('/',(req,res,next)=>{
     res.send('WELCOME TO FITNESS APP BACKEND');
 });
 
-let exercises = [
-    { id: 1, name: 'Running', type: 'Cardio', duration: 30, caloriesBurnt: 300 },
-    { id: 2, name: 'Cycling', type: 'Cardio', duration: 45, caloriesBurnt: 500 },
-    { id: 3, name: 'Weight Lifting', type: 'Strength', duration: 60, caloriesBurnt: 400 },
-];
 
 //getting exercises based on exercise name or type
 app.get('/api/exercises', (req, res, next) => { 
